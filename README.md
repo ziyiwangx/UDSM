@@ -1,8 +1,6 @@
 # UDSM
 
-This repository contains the code and newly-formulated datasets for the following paper:
-
-Pytorch implementation of our Unsupervised Feature Disentanglement of Scene and Motion (UDSM) model for video retrieval in minimally invasive surgery.
+This repository contains the code and newly-formulated datasets of our Unsupervised Feature Disentanglement of Scene and Motion (UDSM) model for video retrieval in minimally invasive surgery.
 
 ## Requirements
 
