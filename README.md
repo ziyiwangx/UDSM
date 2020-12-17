@@ -13,11 +13,8 @@ This repository contains the code and newly-formulated datasets of our Unsupervi
 
 The datasets adopted is the Cholec80 dataset with prepocessing to facilitate the learning process and validation.
 
-## Training
+## Training and testing
 
 To train the UDSM model, first train the feature disentanglement module with `train_disentangle.py` , and then train the LSTM module with `train_lstm.py`.
-
-
-## Evaluation
 
 The evaluation results are saved in a new directory, containig the files of Hamming distance, Hamming rank list and the mAP results. 
