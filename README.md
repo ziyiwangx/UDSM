@@ -18,3 +18,7 @@ The datasets adopted is the Cholec80 dataset with prepocessing to facilitate the
 To train and test the UDSM model, first train the feature disentanglement module with `train_disentangle.py` , and then train the LSTM module with `train_lstm.py`.
 
 The evaluation results are saved in a new directory, containig the files of Hamming distance, Hamming rank list and the mAP results. 
+
+## Dataset
+
+The retrieval dataset is formulated based on the public Cholec80 dataset.
