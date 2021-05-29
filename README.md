@@ -21,7 +21,7 @@ The evaluation results are saved in a new directory, containig the files of Hamm
 
 ## Dataset
 
-The retrieval dataset is formulated based on the public Cholec80 dataset [reorganized Cholec80 dataset](https://drive.google.com/drive/folders/1SfzxnxiY90ztK1FrIz30YjLI5jPu1GVv?usp=sharing).
+The [retrieval dataset](https://drive.google.com/drive/folders/1SfzxnxiY90ztK1FrIz30YjLI5jPu1GVv?usp=sharing) is formulated based on the public Cholec80 dataset.
 - Download Cholec80 surgical video dataset
 - Convert videos to frames and downsample from 25 fps to 1fps
 - Cut the original video data into shorter clips, each accounting for 20 seconds (i.e., 20 frames)
