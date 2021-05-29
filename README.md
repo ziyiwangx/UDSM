@@ -26,5 +26,5 @@ The retrieval dataset is formulated based on the public Cholec80 dataset.
 - Convert videos to frames and downsample from 25 fps to 1fps
 - Cut the original video data into shorter clips, each accounting for 20 seconds (i.e., 20 frames)
 - Discard tail frames in each phase to avoid phase transitions
-- 
+
 https://drive.google.com/drive/folders/1SfzxnxiY90ztK1FrIz30YjLI5jPu1GVv?usp=sharing
