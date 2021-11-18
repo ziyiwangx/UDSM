@@ -20,48 +20,6 @@ from torch.autograd import Variable
 hostname = socket.gethostname()
 
 
-'''def load_dataset(opt):
-    train_data = Cholec80(
-            train=True,
-            data_root=opt.data_root,
-            seq_len=opt.max_step,
-            image_size=opt.image_width,
-            data_type=opt.data_type)
-    test_data = Cholec80(
-            train=False,
-            data_root=opt.data_root,
-            seq_len=opt.max_step,
-            image_size=opt.image_width,
-            data_type=opt.data_type)
-    return train_data, test_data
-
-
-def sequence_input(seq, dtype):
-    return [Variable(x.type(dtype)) for x in seq]
-
-
-def normalize_data(opt, dtype, sequence):
-    if opt.dataset == 'moving_mnist':
-        sequence.transpose_(0, 1)
-        if opt.channels > 1:
-            sequence.transpose_(3, 4).transpose_(2, 3)
-        else:
-            sequence.unsqueeze_(2)
-    elif opt.dataset == 'suncg' or opt.dataset == 'suncg_dual' or opt.dataset == 'kth':
-        sequence.transpose_(0, 1)
-        sequence.transpose_(3, 4).transpose_(2, 3)
-    elif opt.dataset == 'Cholec80':
-        sequence.transpose_(0, 1)
-        sequence.transpose_(3, 4).transpose_(2, 3)
-    else:
-        sequence.transpose_(0, 1)
-
-    #print('sequence', sequence)
-    #print('sequence_shape', sequence.shape)
-
-    return sequence_input(sequence, dtype)
-'''
-
 def is_sequence(arg):
     return (not hasattr(arg, "strip") and
             not type(arg) is np.ndarray and
