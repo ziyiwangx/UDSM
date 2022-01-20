@@ -27,6 +27,25 @@ The [retrieval dataset](https://drive.google.com/drive/folders/1SfzxnxiY90ztK1Fr
 - Cut the original video data into shorter clips, each accounting for 20 seconds (i.e., 20 frames)
 - Discard tail frames in each phase to avoid phase transitions
 
+## Citation
+
+If you find the code useful for your research, please cite:
+```
+@article{wang2022unsupervised,
+  title={Unsupervised feature disentanglement for video retrieval in minimally invasive surgery},
+  author={Wang, Ziyi and Lu, Bo and Gao, Xiaojie and Jin, Yueming and Wang, Zerui and Cheung, Tak Hong and Heng, Pheng Ann and Dou, Qi and Liu, Yunhui},
+  journal={Medical Image Analysis},
+  volume={75},
+  pages={102296},
+  year={2022},
+  publisher={Elsevier}
+}
+```
+
+### Questions
+
+For further question about the code or paper, please contact 'ziyiwangx@gmail.com'
+
 
 
 
